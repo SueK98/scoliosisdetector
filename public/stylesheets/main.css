@@ -16,6 +16,10 @@
     height: auto;
 }
 
+.outline {
+    margin-left: 170px;
+}
+
 .title {
     font-size: 5rem;
     font-weight: bold;
