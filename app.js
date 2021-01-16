@@ -48,11 +48,11 @@ app.post("/testScoliosis", upload.single('scoliosisPhoto'), function(req,res){
               var tag = response.data.predictions[0].tagName;
 
               if(tag == 'severe'){
-                  res.redirect("/severe");
+                  res.render("severe", {img: data});
               }else if(tag == 'healthy'){
-                res.redirect("/healthy");
+                res.render("healthy", {img: data});
               }else if(tag == 'mild'){
-                res.redirect("/mild");
+                res.render("mild", {img: data});
               }else{
                   res.redirect("/error")
               }
