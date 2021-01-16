@@ -1,7 +1,7 @@
 {
   "name": "htn",
   "version": "1.0.0",
-  "description": "",
+  "description": "Hack The North project called scoliosis detector built in a website",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
     "ejs": "^3.1.5",
-    "express": "^4.17.1"
-  }
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "fs": "0.0.1-security",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SueK98/scoliosisdetector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SueK98/scoliosisdetector/issues"
+  },
+  "homepage": "https://github.com/SueK98/scoliosisdetector#readme"
 }
