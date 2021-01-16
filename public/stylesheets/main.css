@@ -32,6 +32,12 @@
     font-weight: bold;
 }
 
+.uploadSub {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
 .resultsTitle {
     font-size: 4rem;
     text-align: center;
@@ -40,6 +46,10 @@
 
 .healthy {
     color: #B13AFB;
+}
+
+.upload {
+    width: 250px;
 }
 
 .button {
@@ -61,4 +71,8 @@
 
 .button:focus {
     outline: none;
+}
+
+.started:hover {
+    text-decoration: none;
 }
