@@ -16,6 +16,13 @@
     height: auto;
 }
 
+.cs {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #B13AFB;
+    margin-left: 200px;
+}
+
 .outline {
     margin-left: 170px;
 }
@@ -24,6 +31,19 @@
     font-size: 5rem;
     font-weight: bold;
     color: #B13AFB;
+}
+
+.text {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.vids {
+    grid-row-gap: 10px;
+}
+
+.vidcs {
+    grid-row-gap: 10px;
 }
 
 .healthyTitle {
